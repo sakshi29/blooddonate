@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>bloodbank</title>
+    <meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css" />
+	<link rel="stylesheet" href="css/style.css" />
+    <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+    <script type="text/javascript" src="js/function.js"></script>	 
+</head>
+  <body>
+<div class="page" data-role="page" ><!--
+   --><div data-role="header">
+    <h1>BLOODBANK</h1>
+    <a href="#left-panel" data-icon="bars" data-iconpos="notext" data-shadow="false" data-iconshadow="false">Menu</a>
+   </div>
+   <div role="main" class="ui-content">
+    <div class="article">
+  <button class="ui-btn ui=btn-inline" id="location">search for donors</button>
+	<div id="jdata">
+   </div>
+</div>
+    </div><!-- /article -->
+    
+    <div data-role="panel" id="left-panel">
+        <ul data-role="listview">
+            <li><h1>Welcome </h1></li>
+            <li data-icon="delete"><a href="#" data-rel="close">Close</a></li>
+            <li><a href="#"  id="donate" data-rel="close">Donate</a></li>
+            <li ><a href="#"  id="need" data-rel="close">Need</a></li>
+            <li><a href="#" class="button button-clear" id="logout">Logout</a></li><!-- /collapsible -->
+        </ul>
+    </div><!-- /panel -->
+    
+</div>
+
+
+</body>
+</html>
