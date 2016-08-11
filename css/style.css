@@ -1,0 +1,47 @@
+.page{
+	background-color:#ffffff;
+}
+
+#login{
+	background-color:#00bfff;
+}
+#sign{
+	background-color:#00bfff;
+}
+#signup{
+background-color:#00bfff;	
+}
+#phone{
+	float:right;
+	font: bold 1em Arial;
+    text-decoration: none;
+    background-color: #00bfff;
+    color: #059;
+    padding: 2px 6px 2px 6px;
+    border-top: 1px solid #CCCCCC;
+    border-right: 1px solid #333333;
+    border-bottom: 1px solid #333333;
+    border-left: 1px solid #CCCCCC;
+}
+table {
+    border-collapse: collapse;
+    border: 1px solid black;
+	width: 100%;
+}
+th, td {
+    padding: 15px;
+    text-align: left;
+}
+.jsondata{
+    background-color: bisque;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: 5px solid #38c;
+    padding-right: 25px;
+    padding-left: 25px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.ui-grid-solo{
+	    background-color: bisque;
+}
